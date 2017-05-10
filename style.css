@@ -1,3 +1,7 @@
+img {
+  max-width: 100%;
+}
+
 header {
   background: #2C3E50;
   padding: 25px;
@@ -103,4 +107,62 @@ footer {
 
 #portifolio ul li {
   margin-bottom: 40px;
+}
+
+#portifolio .projects .content {
+  position: relative;
+}
+
+#portifolio .projects a {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: rgba(24, 188, 156, 0.8);
+  color: #fff;
+  font-size: 36px;
+  right: 0;
+  bottom: 0;
+  opacity: 0.0;
+  transition: opacity 500ms;
+}
+
+#portifolio .projects a:hover {
+  opacity: 1;
+}
+
+#portifolio .projects a i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -18px;
+  margin-left: -16px;
+}
+
+#project-page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  overflow: auto;
+  display: none;
+}
+
+#project-page .content {
+  width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+#project-page p {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+#project-page .close-project {
+  color: #bbb;
+  margin-right: 20px;
+  margin-top: 10px;
+  display: block;
 }
