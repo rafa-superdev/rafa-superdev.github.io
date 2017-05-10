@@ -38,3 +38,39 @@ footer {
   color: #fff;
   padding: 20px 0;
 }
+
+#info {
+  background: #18BC9C;
+  padding: 90px;
+  color: #fff;
+}
+
+#info h1 {
+  font-size: 70px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#info h4 {
+  font-size: 30px;
+}
+
+#info img {
+  width: 210px;
+  border-radius: 120px;
+}
+
+#info .star {
+  height: 4px;
+  background: #fff;
+  width: 300px;
+  margin: 25px auto;
+}
+
+#info .star i {
+  position: relative;
+  top: -12px;
+  font-size: 29px;
+  background: #18BC9C;
+  padding: 0 7px;
+}
