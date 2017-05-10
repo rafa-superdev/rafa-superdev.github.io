@@ -32,3 +32,9 @@ header .menu a:hover {
 header .menu li.active a, header .menu li.active:hover a {
   background: #18BC9C;
 }
+
+footer {
+  background: #2C3E50;
+  color: #fff;
+  padding: 20px 0;
+}
